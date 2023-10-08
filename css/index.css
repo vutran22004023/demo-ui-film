@@ -1,6 +1,6 @@
 body {
   background-color: #202020;
-  height: 3000px;
+  height: auto;
   color: #e5e5e5;
   margin: 0;
   padding: 0;
@@ -88,7 +88,7 @@ header .btn-vip {
     opacity: 0; /* Ẩn ban đầu */
   }
   to {
-    transform: translateY(0); /* Kết thúc ở vị trí ban đầu */
+    transform: translateY (0); /* Kết thúc ở vị trí ban đầu */
     opacity: 1; /* Hiển thị hoàn toàn */
   }
 }
@@ -186,7 +186,7 @@ header .btn-vip {
   margin-left: 20px;
 }
 
-.card {
+.cards {
   background-color: #202020;
   position: relative;
 }
@@ -202,14 +202,14 @@ header .btn-vip {
   font-size: 50px;
 }
 
-.card:hover .icon-overlay {
+.cards:hover .icon-overlay {
   opacity: 1;
 }
-.card img {
+.cards img {
   border-radius: 10px;
 }
 
-.card img:hover {
+.cards img:hover {
   transform: scale(1.1); /* Khi hover vào card, làm toàn bộ card to lớn hơn 10% */
   transition: transform 0.3s ease; /* Thời gian và kiểu easing của hiệu ứng */
   border-radius: 10px;
@@ -221,7 +221,7 @@ header .btn-vip {
   font-size: 20px;
 }
 
-.card img {
+.cards img {
   width: 100%;
 }
 
@@ -320,6 +320,15 @@ header .btn-vip {
 
 .contents {
   margin-top: 50px;
+}
+
+.card-actor {
+  border: none;
+  background-color: #202020;
+}
+
+.card-actor img {
+  border-radius: 50%;
 }
 
   
