@@ -77,7 +77,6 @@
 }
 
 .miscellaneous-content-1 {
-    margin-top: 50px;
     background-color: #353535;
     height: auto;  
     border-radius: 8px; 
@@ -192,11 +191,44 @@
     background-color: #858585;
     color: #fff;
 }
-
-
-
-
 /* end info 2 */
+
+.miscellaneous-content-2 {
+    background-color: #202020;
+    height: auto;
+    padding: 0 0 0 10px;
+}
+
+.miscellaneous-content-2-block {
+    background-color: #353535;
+    height: auto;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.miscellaneous-content-2-header {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 175% */
+    letter-spacing: 0.2px;
+    height: 50px;
+    text-align: center;
+    padding-top: 16px ;
+}
+
+.miscellaneous-content-2-block-film-text {
+    margin-left: 10px;
+}
+
+.miscellaneous-content-2-block-film {
+    margin-bottom: 10px ;
+}
+
+
 
 
 
