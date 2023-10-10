@@ -50,6 +50,20 @@ const header = document.getElementById("site-header");
       });
     })
 
+    $(document).ready(function () {
+      $('.calendar').slick({
+        infinite: false,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        dots: false,
+       arrows:false,
+      });
+    })
+
+
+    
+    
+
 
 
 // Lấy danh sách các liên kết và phần thông tin
@@ -85,6 +99,9 @@ function showInfo(id) {
     const activeLink = document.querySelector(`[href="#${id}"]`);
     activeLink.classList.add("active");
 }
+
+
+
 
 
 
