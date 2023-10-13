@@ -66,6 +66,12 @@
     letter-spacing: 0.2px;
 }
 
+.miscellaneous-content-1 {
+    background-color: #353535;
+    height: auto;  
+    border-radius: 8px; 
+}
+
 .showtime-block-time {
     color: #FFF;
     font-family: Montserrat;
