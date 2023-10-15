@@ -183,4 +183,53 @@
     border-radius: 8px;
 }
 
+.info3-assess-header {
+    background-color: #464646;
+    height: 40px;
+    text-align: center;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 175% */
+    letter-spacing: 0.2px;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+
+.info3-assess-block-comments {
+    background-color: #e3e3e3;
+    height: auto;
+}
+.info3-assess-block-comments {
+    margin-top: 20px;
+    border-radius: 8px;
+
+}
+
+.info3-assess-comments {
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.info3-assess-comment-content {
+    color: #000;
+    font-family: Inter;
+    font-size: 17px;
+}
+
+.info3-assess-comment-content-name {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.info3-assess-comments-form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
