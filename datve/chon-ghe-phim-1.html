@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="/css/datve.css">
-    <link rel="stylesheet" href="/css/thong-tin-ve.css">
+    <link rel="stylesheet" href="/css/chon-ghe-film.css">
 </head>
 
 <body>
@@ -109,76 +109,53 @@
         </div>
     </div>
 
-    <div class="container mt-4">
+    <div class="container mt-3">
         <div class="row">
             <div class="col-md-8">
-                <div class="information-film">
-                    <div class="information-film-header">
-                        Thông tin phim
+                <div class="chair-film">
+                    <div class="chair-film-header">
+                        Chọn ghế phim
                     </div>
-                    <div class="information-film-content p-2">
-                        <div class="information-film-content-text">Tên phim</div>
-                        <div class="information-film-content-text">Suất Chiếu:</div>
-                        <div class="information-film-content-text">Thời Lượng:</div>
-                        <div class="information-film-content-text">Phòng chiếu:</div>
-                        <div class="information-film-content-text">Số ghế:</div>
-                        <div class="information-film-content-text">Rạp chiếu:</div>
-                        <div class="information-film-content-text">Địa chỉ:</div>
-                    </div>
-                </div>
-
-                <div class="information-film mt-3">
-                    <div class="information-film-header">
-                        Hóa đơn thanh toán
-                    </div>
-                    <div class="information-film-content mt-2">
-                        <table class="table table-sm table-dark table-hover">
-                            <thead class="table-dark">
-                                <tr>
-                                    <th>Hóa đơn thanh toán</th>
-                                    <th>Số lượng</th>
-                                    <th>Thành tiền</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <div>Ghế thường</div>
-                                        <div>1 BẮP CARAMEL VỪA + 1 PESSI 22OZ(vị Caramel)</div>
-                                        <div>Phí tiền ích</div>
-                                        <div>Tổng</div>
-                                    </td>
-                                    <td>
-                                        <div>2</div>
-                                        <div>1</div>
-                                    </td>
-                                    <td>
-                                        <div>90,000đ</div>
-                                        <div>85,000đ</div>
-                                        <div>9,000đ</div>
-                                        <div>184,000đ</div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-md-4">
-                <div class="information-film">
-                    <div class="information-film-header">
-                        Thông tin nhận vé
-                    </div>
-                    <div class="information-film-content p-2">
-                        <div class="information-film-content-text">Họ và tên:</div>
-                        <div class="information-film-content-text">Số điện thoại:</div>
-                        <div class="information-film-content-text">Email:</div>
+                    <div class="chair-film-content">
+                        <div class="screen">
+                            Màn Hình
+                        </div>
+                        <div class="information-chair">
+                            <div class="seating-container" id="seating-map"></div>
+                        </div>
                     </div>
                 </div>
             </div>
+
+            <div class="col-md-4 ">
+                <div class="corn-water-information-2">
+                    <div class="chair-film-header">
+                        Thông tin
+                    </div>  
+                  <div class="information-2-content ">
+                    <div class="information-2-content-img p-3">
+                      <h4>Thanh gươm trừ tà</h4>
+                      <div class="information-2-content-text">Rio Đà Nẵng</div>
+                      <div class="information-2-content-text">Suất chiếu:15h40 12/10/2023</div>
+                      <p >Ghế: <span class="information-2-content-text" id="selected-seat-list">Chưa có</span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="information-2-content-price mt-2">
+                    <p class="p-3">Tổng tiền: <span id="total-price">0</span> VNĐ</p>
+                </div>
+        
+                <div class="information-2-content-btn row mt-3">
+                    <button class="btn  btn-dark col-md-5">thoát</button>
+
+                    <button class="btn  btn-dark col-md-7">Tiếp tục</button>
+
+                </div>
+        
+              </div>
         </div>
     </div>
+
 
     <footer class="bg-dark text-white pt-5 pb-4 mt-5">
 
@@ -249,9 +226,8 @@
 
     </footer>
 
-
-
     <script src="/js/index.js"></script>
+    <script src="/js/chair.js"></script>
 </body>
 
 </html>
